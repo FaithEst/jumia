@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="/CSS/cart.css">
+    <link rel="stylesheet" href="/CSS/styles.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="yellow"></div>
+    <div class="grey">
+        <div class="main1">
+            <div class="star">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#f68b1e" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg> 
+                    <span class="small inOrange">Sell on Jumia</span> 
+                </a>            
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <img src="/IMAGES/jumiaIcon.png" alt="" class="jumiaIcon">
+        <div class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search icon" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            <input class="searchProducts" type="text" placeholder="Search products, brands and categories">
+        </div>
+        <button class="orangeBtn">SEARCH</button>
+        <div class="account">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-fill mymargin" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> Account
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>  
+        </div>
+        <div class="account">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+              </svg> Help
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>  
+        </div>
+        <div class="account">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg> Cart 
+        </div>
+    </div>
+
+    <!-- section one starts here -->
+
+    <section class="firstSection">
+        <div class="firstSecMain">
+            <h3>Cart (1 item)</h3>
+            <div class="insideFirstSec">
+                <div class="row1">
+                    <div class="itemA">ITEM</div>
+                    <div class="row2">
+                        <div class="quantityA">QUANTITY</div>
+                        <div class="unitPriceA">UNIT PRICE</div>
+                        <div class="subTotalA">SUB-TOTAL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainRow">
+                <div class="division1">
+                    <img class="cap" alt="" id="imageToBuy">
+                </div>
+                <div class="division2">
+                    <div class="rowA">Seller: Bonne Chance Shop</div>
+                    <a href="" class="div2">3 Pieces Of Adjustable Baseball Cap - Multicolour
+                    </a>
+                    <div class="rowA">Variation: 1 size fits all</div>
+                    <div class="savedItems">
+                        <a href="">
+                            <i class="bi bi-heart"></i>                       
+                            <span class="moveRight">MOVE TO SAVED ITEMS</span>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-trash-fill"></i>
+                            <span>REMOVE</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="division3">
+                    <div class="one">
+                        <input type="number" id="tentacles" class="inpNum" name="tentacles">
+                    </div>
+                </div>
+                <div class="division4">
+                    <span>KSh
+                        <span>5,099</span>
+                    </span>
+                    <span class="someP">
+                        <del>KSh 6,099</del>
+                    </span>
+                    <span class="somePB">
+                        Savings: 
+                        <span>KSh</span>
+                        <span>1,000</span>
+                    </span>
+                </div>
+                <div class="division5">
+                    <span>KSh
+                        <span>5,099</span>
+                    </span>
+                </div>
+            </div>
+            <div class="table">
+                    
+                    <div class="totalTxt">
+                        <label for="">Subtotal:</label>
+                        <span>KSh  5,099</span>
+                    </div>
+
+                    <div class="totalTxt">
+                        <label for="">VAT:</label>
+                        <span>KSh 0</span>
+                    </div>
+                    <hr class="lineTxt">
+                    <div class="totalTxt">
+                        <label for="">Total:</label>
+                        <span> 
+                            KSh 5,099
+                        </span>
+                    </div>
+                <div class="someP">Local delivery fees not included yet</div>
+            </div>
+        </div>
+        <div class="withButtons">
+            <div class="bothButtons">       
+                <a href=""><button class="buttonBig">
+                         CONTINUE SHOPPING
+                    </button>             
+                </a>
+                <a href="">   <button class="buttonBigB">
+                        PROCEED TO CHECKOUT 
+                    </button>    
+                </a>    
+            </div>
+        </div>
+    </section>
+
+    <script src="/JS/page3.js"></script>
+    <!-- <script src="/JS/page4.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+border-style{
+    box-sizing: border-box;
+}
+
+/* navabar class */
+.yellow{    
+    width: 100%;
+    background-image: url(/IMAGES/Cross.gif);
+    height: 10vh; 
+    /* position: sticky;  */
+}
+.star a{
+    text-decoration: none;
+}
+
+/* the grey div after the navbar */
+.grey{
+    width: 100%;
+    height: 5vh;
+    background-color: #f5f5f5;
+}
+.inOrange{
+    color: #f68b1e;
+}
+.main1{
+    width: 75%;
+    margin: auto;
+}
+
+/* the div carrying the input text, button etc.. */
+.menu{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+}
+
+/* div carrying the search icon and inout text */
+.search{
+    width: 40%;
+    border: groove #999 1px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;   
+    margin-right: 20px;
+}
+
+/* input text */
+.searchProducts{
+    width: 90%;
+    padding: 5px;
+    border: none; 
+}
+/* search icon */
+.icon{
+    margin: auto;
+}
+/* button */
+.orangeBtn{
+    background-color: #f68b1e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/* jumia icon */
+.jumiaIcon{
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section one starts here */
+.sectionOne{
+    width: 100%;
+    background-image: url(/IMAGES/KrisiNaJumia.jpg);
+    background-size: cover;
+}
+
+/* div with the main content */
+.main{
+    width: 75%;
+    height: 53vh;
+    margin: auto;
+    display: flex;
+    padding-top: 15px;
+}
+
+/* div on the left side with the list */
+.leftSide{
+    background-color: white;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* list inside div leftSide */
+.listOne{
+    list-style: none;
+    color: rgb(69, 64, 64);
+}
+.listOne i{
+    margin-right: 10px;
+}
+.listOne svg{
+    margin-right: 10px;
+}
+/* div with the image */
+.center{
+    width: 640px;
+    height: 100%;
+    border-radius: 6px;
+    background-image: url(/IMAGES/ChickenInn.jpg);
+    margin: 0 15px 0 15px;
+}
+
+/* div on the right side */
+.rightSide{
+    width: 230px;
+    height: 100%;
+}
+/* top most div inside rightSide */
+.above{
+    width: 100%;
+    height: 47%;
+    border-radius: 6px;
+    background-color: white;
+    margin-bottom: 18px;
+}
+/* bottom most div inside rightSide */
+.below{
+    width: 100%;
+    height: 48%;
+    bottom: 0;
+    border-radius: 6px;
+    background-image: url(/IMAGES/jumia.gif);
+}
+
+.text{
+    
+}
+.box{
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    height: 30%;
+    display: flex;
+    padding-top: 15px;
+}
+.smallIcon{
+    width: 34px;
+    height: 34px;
+    margin: 0 15px 0 8px;
+}
+.small{
+    font-size: 13px;
+}
+.mymargin{
+    margin-right:5px;
+}
+.account{
+    margin-left: 30px;
+}
+
+/*div with auto margin------*/
+.main2{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.official{
+    background-color: white;
+    width: 200px;
+    padding: 8px 0 8px 0;
+    border-radius: 6px;
+}
+.officialImage{
+    width: 40px;
+    height: 40px;
+    margin-left: 7px;
+}
+
+/* div with products */
+.main3{
+    width: 75%;
+    height: 45vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+    position: relative;
+}
+.withItems{
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    width: 180px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(120, 116, 116, 0.3);
+}
+.items p{
+    line-height: normal;
+    margin: 10px 0 10px 20px;
+}
+
+/* chevron icons */
+.hide{
+    /* display: none; */
+    border: none;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+.withBtn{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: 0 20px 0 0;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+}

@@ -1,0 +1,314 @@
+.secOneProducts{
+    background-color: #f5f5f5;
+}
+/* displaying flex for mainDiv and delivery div */
+.displayFlex{
+    width: 78%;
+    height: 120vh;
+    margin: auto;
+    display: flex; 
+    justify-content: space-between; 
+}
+/* displays flex btwn divs: displayProducts and costs */
+.mainDiv{
+    width: 72%;
+    height: 98vh;
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.displayProducts{
+    width: 40%;
+    padding-top: 30px;
+    border-radius: 6px 0 0 6px;
+    background-color: white;
+    position: relative;
+}
+.divWithPhone{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.costs{
+    width: 60%;
+    border-radius: 0 6px 6px 0;
+ }
+.smallerImages{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.lineAndIcons{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.lineAndIcons h4{
+    margin: 8px 0 10px 0;
+}
+.btnIcon{
+    border-radius: 50px;
+    padding: 2px;
+    border: none;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.btnIcon svg:hover{
+    fill: #f68b1e;
+}
+.btnIcon:hover{
+    border: 0.5px groove #f68b1e;
+}
+.report{
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 20px 10px;
+}
+.report a{
+    color: #276076;
+}
+.phone{
+    width: 44px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    object-fit: cover;
+    margin: 0 3px 0 3px;
+}
+.phone1{
+    width: 100%;
+    height: 300px;
+}
+.part1{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.officiaStore{
+    background-color: #276076;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+}
+.part2{
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.addToCart{
+    cursor: pointer;
+}
+.xiaomi h1{
+    font-weight: 400;
+}
+.stars a, .xiaomi a{
+    color: #695496;
+}
+.line{
+    width: 100%;   
+    margin-top: 10px;
+}
+.shillings{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0 12px 0;
+}
+.orangeButton{
+    width: 100%;
+    background-color: #f68b1e;
+    color: white;
+    border: none;
+    margin: 15px 0 0 0;
+    padding: 12px 0 12px 0;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+}
+.orangeButton svg{
+    left: 0;
+    position: absolute;
+    margin-left: 10px;
+}
+.sideways{
+    width: 82%;
+    margin: 15px 0 15px 0;
+}
+.sideways svg{
+    margin-right: 5px;
+}
+.sideways a{
+    text-decoration: none;
+    color: #276076;
+}
+.delivery{
+    width: 27%;
+    height: 98vh;
+    margin-top: 30px;
+    position: relative;
+}
+.insideDelivery{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    margin-bottom: 10px;
+}
+.insideDelivery h4, h3{
+    font-weight: 400;
+    margin: 5px 0 5px 10px;
+}
+.insideDelivery hr{
+    margin: 5px 0 5px 0;
+}
+.express{
+    width: 110px;
+    height: 10px;  
+}
+.exp{
+    margin-left: 10px;
+}
+.expressLogo{
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.detailsBtn{
+    border: none;
+    background-color: white;
+}
+.details{
+    text-decoration: none;
+}
+.selectBox{
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.selectBox1{
+    width: 95%;
+    margin-bottom: 8px;
+}
+.inselectBox1{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-radius: 4px;
+    border-color: #999;
+    background-color: white;
+}
+.doorDelivery{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+.doorDelivery1{
+    display: flex;
+    width: 95%;
+    margin-bottom: 20px;
+}
+.doorDelivery1 svg{
+    border: #999 groove 1px;
+    padding: 2px;
+}
+.doorDelMain{
+    width: 90%;
+    margin-left: 10px;
+}
+.doorDel{
+    display: flex;
+    justify-content: space-between;
+}
+.doorDel h4{
+    margin-left: 0;
+}
+.fontSm{
+    font-size: 12px;
+}
+.deBtn{
+    border: none;
+    background-color: white;
+}
+.deBtn a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #276076;
+}
+.seeMore{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    padding: 5px 0 5px 0;
+}
+.seeMore h4{
+    margin-left: 0px;
+}
+.seeMore p{
+    font-size: 13px;
+}
+.kidogo{
+    margin-right: 10px;
+}
+.sellerInfoMain{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+.sellerInfo{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.sellerInfoMain p{
+    font-size: 13px;
+}
+.sellerInfoMain h3,h4{
+    font-weight: 400;
+}
+.seller{
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.inSeller{
+    display: flex;
+    justify-content: space-between;
+}
+.perfomance{
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+}
+.perf1{
+    width: 100%;
+    display: flex;
+}
+.perf1 h3{
+    margin-left: 0;
+}
+.perf1 button{
+    border: none;
+    margin-left: 8px;
+    background-color: rgb(241, 239, 239, 0);
+}
+.order{
+    width: 100%;
+    margin-top: 10px;
+}
+.order1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.order1 span{
+    margin-right: 5px;
+}
